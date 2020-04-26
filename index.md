@@ -38,10 +38,10 @@ partes.forEach(function (parte) {
     data[chave] = valor;
 });
   if(data['url'] != undefined){
-    var url = "https://rioverde.site/?linkc=" + data['url'] + "&src=" + data['src'] +'&loteria=' + data['loteria'];
+    var url = "https://bonusfacil.site/av?linkc=" + data['url'] + "&src=" + data['src'] +'&loteria=' + data['loteria'];
   } else {
   
-    var url = "https://rioverde.site/";
+    var url = "https://bonusfacil.site/av";
   
   }
    
