@@ -63,7 +63,7 @@ partes.forEach(function (parte) {
     data[chave] = valor;
 });
   if(data['url'] != undefined){
-    var url = "https://bonusfacil.site/av?linkc=" + data['url'] + "&src=" + data['src'] +'&loteria=' + data['loteria'];
+    var url = data['url'] + "?linkc=" + data['url'] + "&src=" + data['src'] +'&loteria=' + data['loteria'];
   } else {
   
     var url = "https://bonusfacil.site/av";
